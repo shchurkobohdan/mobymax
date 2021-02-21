@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Registration suite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <test name="Register new user with Teacher role">
+        <classes>
+            <class name="ui.registration.TeacherRegistrationTest"/>
+        </classes>
+    </test>
+</suite>
