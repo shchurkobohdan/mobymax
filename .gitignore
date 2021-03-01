@@ -4,3 +4,4 @@ target
 *.yaml
 allure-results
 .allure
+.DS_Store
