@@ -67,7 +67,7 @@ public class WebDriverFactory {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setBrowserName(browser);
 		try {
-			driver = new RemoteWebDriver(new URL("http://172.21.0.3:4444/wd/hub"), capabilities);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 		} catch (MalformedURLException e) {
 			throw new IllegalStateException("Failed to instantiate the remote driver");
 		}
